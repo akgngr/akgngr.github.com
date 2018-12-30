@@ -163,7 +163,7 @@ nav.bg-dark {
 	.navbar-collapse{
 	position: absolute;	
 	left: 0 !important;
-	top: 70px;
+	top: 100px;
 	}
 	.navbar-collapse ul.navbar-nav{
 		position: absolute;
