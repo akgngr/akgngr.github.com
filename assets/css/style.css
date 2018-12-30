@@ -1,0 +1,222 @@
+/*
+* Pages Fonts
+**/
+@font-face {
+  font-family: beyondfont;
+  src: url(beyond_the_mountains.ttf);
+}
+/*
+* Body style
+**/
+body, html {
+	height: 100%;
+	font-family: superclarendon, serif;
+	font-style: normal;
+	background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color : #fff; 
+}
+/*
+* Menu style
+**/
+a.navbar-brand {
+	font-family: beyondfont;
+	color: white !important;
+	font-weight: bold;
+	font-size: 2em;
+}
+a.nav-link{
+	color: white !important;
+	text-transform: uppercase;
+	font-family: superclarendon, serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+/**
+* Fixed Navigation.
+**/
+nav  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 150px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+/*=== This is what happen when scrolled (height should be smaller than logo img)===*/
+nav.bg-dark {
+    height: 70px;
+}
+
+
+/*
+* .app tag style
+* background and text style
+**/
+.app{
+	/* Page Image */
+	background-image: url(../images/bg.png);
+	/* Full height */
+	height: 100%; 
+	max-height: 100%;
+	/* Center and scale the image nicely */
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.front-text{
+	text-align: right;
+	position:absolute;
+	top: 40%;
+	color:white !important;
+	padding: 0 25px 0 5px;
+}
+
+/*
+*	About pages style
+**/
+#about{
+	padding-top: 75px; 
+	height: 100% !important;
+	max-height: 100% !important;
+}
+
+.govde{
+	height: 100%;
+	max-height: 100%;
+}
+/**
+* Contact Pages Style
+**/
+
+#contact{ 
+  font-family: 'Teko', sans-serif;
+  padding-top: 75px;
+  width: 100%;
+  width: 100vw;
+  height: 100% !important;
+  max-height: 100% !important;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color : #fff;    
+}
+
+#contact{
+  background-color: #70c3be;
+  letter-spacing: 2px;
+  }
+#contact a{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  .front-text{
+		text-align: center;
+		position:absolute;
+		top: 40%;
+		color:white !important;
+		padding: 0 25px 0 5px;
+	}
+
+	.navbar-collapse{
+	position: absolute;	
+	left: 0 !important;
+	top: 70px;
+	}
+	.navbar-collapse ul.navbar-nav{
+		position: absolute;
+		top: 100%;
+		background: #343a40!important;
+	}
+	.navbar-collapse ul.navbar-nav li {
+		width: 600px;
+		padding: 0 0 0 10px;
+	}
+	#about{
+		height: auto;
+		max-height: auto;
+	}
+	#contact{
+	height: auto;
+	max-height: auto;
+	}
+	.govde p{
+		font-size: 0.8rem;
+	}
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+	.navbar-collapse{
+	position: absolute;	
+	left: 0 !important;
+	top: 70px;
+	}
+	.navbar-collapse ul.navbar-nav{
+		position: absolute;
+		top: 100%;
+		background: #343a40!important;
+	}
+	.navbar-collapse ul.navbar-nav li {
+		width: 900px;
+		padding: 0 0 0 10px;
+	}
+	#contact, #about{
+	height: auto;
+	}
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+  	.navbar-collapse{
+	position: absolute;	
+	left: 0 !important;
+	right: 43px;
+	top: auto;
+	}
+	.navbar-collapse ul.navbar-nav{
+		position: relative;
+		top: auto;
+		right: auto;
+		left: auto;
+		background: transparent !important;
+	}
+	.navbar-collapse ul.navbar-nav li {
+		width: auto;
+		padding: 0 0 0 10px;
+	}
+	#contact, #about{
+	height: auto;
+	}
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+
